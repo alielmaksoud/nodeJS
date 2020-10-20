@@ -66,10 +66,9 @@ function unknownCommand(c){
  *
  * @returns {void}
  */
-function hello(){
-  console.log('hello!')
+function hello(c){
+  console.log(c.trim()+"!")
 }
-
 /**
  * Says help
  * This function is supposed to show lists of all the possible commands
