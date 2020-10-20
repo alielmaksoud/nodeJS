@@ -37,8 +37,8 @@ function onDataReceived(text) {
   if (text === 'quit\n'|| text === 'exit\n') {
     quit();
   }
-  else if(text === 'hello\n'){
-    hello();
+  else if( text.toLowerCase().indexOf('hello') === 0){
+    hello(text);
   }
   else if(text === 'help\n'){
     help();
