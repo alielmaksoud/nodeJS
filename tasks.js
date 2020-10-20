@@ -72,7 +72,7 @@ function hello(){
 
 /**
  * Says help
- *
+ * This function is supposed to show lists of all the possible commands
  * @returns {void}
  */
 function help(){
